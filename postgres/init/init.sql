@@ -6,6 +6,3 @@ create table t_user (
   , primary key (user_id)
 );
 
-INSERT INTO "public"."t_user" ("id", "name", "password", "enabled") VALUES
-('admin', 'admin', 'pass12345', 't'),
-('user', 'user', 'pass12345', 't');
